@@ -1,10 +1,13 @@
 services:
-  project:
+  fastapi_template:
     build:
       context: .
       dockerfile: Dockerfile
     image:
-      project
+      user/fastapi_template
+    container_name: fastapi_template
+    ports:
+      - "8000:8000"
     networks:
       - main_network
 
