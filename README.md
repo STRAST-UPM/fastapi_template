@@ -1,4 +1,4 @@
-# Template Python Project 
+# FastAPI Template
 
 Template for a Fast API project. This template is based on the
 [python_project_template](https://github.com/STRAST-UPM/python_project_template)
@@ -13,7 +13,7 @@ properly.
 
 ### Files and folders updates
 
-- `code/src/classes/routers` is the package used to keep the routers that
+- `code/src/routers` is the package used to keep the routers that
 control the different main endpoints.
 
 ## Deployment on containers
