@@ -5,6 +5,7 @@ BASE_ENDPOINT = ""
 
 # Default endpoint
 DEFAULT_TAG = "default"
+DEFAULT_ENDPOINT = "/"
 
 # User endpoints and tags
 USERS_TAG = "users"

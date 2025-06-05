@@ -21,7 +21,7 @@ control the different main endpoints.
 As it was told this project was though to be used with containers for easy
 deployment. The base containers deployed are the project developed and a
 PostgreSQL database with a web administration console accesible. The following
-URL is for the [FastAPI Docs](http://localhost) and the second one for the
+URL is for the [FastAPI Docs](http://localhost:8000/docs) and the second one for the
 [Postgres admin console](http://localhost:8080). The database and administration
 console have permanent storage via Docker volumes.
 

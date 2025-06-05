@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image:
-      user/fastapi_template
+      ghcr.io/strast-upm/fastapi_template
     container_name: fastapi_template
     ports:
       - "8000:8000"
